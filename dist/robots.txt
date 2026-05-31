@@ -1,0 +1,27 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://moviereviewhub.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow sensitive paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /settings
+Disallow: /watchlist
+Disallow: /login
+Disallow: /register
+
+# Allow search engines to index main content
+Allow: /movie/
+Allow: /person/
+Allow: /movies
+Allow: /discover
+Allow: /top250
+Allow: /celebrities
+Allow: /search

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b91c1c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="20" fill="url(#grad)"/>
+
+  <!-- Film Clapperboard Icon -->
+  <g filter="url(#shadow)">
+    <!-- Main Board -->
+    <rect x="15" y="30" width="70" height="50" rx="4" fill="#fff" opacity="0.95"/>
+
+    <!-- Stripes -->
+    <rect x="15" y="30" width="70" height="12" fill="#1a1a1a"/>
+    <rect x="15" y="30" width="14" height="12" fill="#fff"/>
+    <rect x="43" y="30" width="14" height="12" fill="#fff"/>
+    <rect x="71" y="30" width="14" height="12" fill="#fff"/>
+
+    <!-- Film Holes -->
+    <circle cx="25" cy="56" r="4" fill="#1a1a1a"/>
+    <circle cx="40" cy="56" r="4" fill="#1a1a1a"/>
+    <circle cx="55" cy="56" r="4" fill="#1a1a1a"/>
+    <circle cx="70" cy="56" r="4" fill="#1a1a1a"/>
+
+    <!-- Star (Rating Symbol) -->
+    <polygon
+      points="50,35 53,43 62,43 55,49 58,58 50,52 42,58 45,49 38,43 47,43"
+      fill="#fbbf24"/>
+  </g>
+
+  <!-- Accent Dot -->
+  <circle cx="82" cy="18" r="8" fill="#fbbf24" stroke="#fff" stroke-width="3"/>
+</svg>
